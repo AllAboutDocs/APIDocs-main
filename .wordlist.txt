@@ -1,0 +1,14 @@
+GitBook
+GitHub
+API
+APIs
+OpenAPI
+YAML
+JSON
+webhook
+repo
+mkdocs
+lychee
+varchar
+boolean
+enum

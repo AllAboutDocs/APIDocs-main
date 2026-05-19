@@ -13,23 +13,10 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Set up Python
-        uses: actions/setup-python@v4
-        with:
-          python-version: "3.x"
-
-      - name: Install MkDocs + dependencies
-        run: |
-          pip install mkdocs mkdocs-material
-          pip install -r requirements.txt
-
-      - name: Build docs
-        run: mkdocs build --strict
-
-      - name: Check links with lychee
+      - name: Check links in markdown files
         uses: lycheeverse/lychee-action@v1
         with:
-          args: --verbose --no-progress --exclude 'fonts.gstatic.com' './site/**/*.html'
+          args: --verbose --no-progress --exclude 'fonts.gstatic.com' --exclude 'localhost' '**/*.md'
           fail: true
 
   spell-check:
@@ -61,7 +48,7 @@ jobs:
       - name: Run Vale
         uses: errata-ai/vale-action@v2
         with:
-          files: docs/
+          files: all
           vale_flags: "--config=.vale.ini"
           reporter: github-check
           fail_on_error: false

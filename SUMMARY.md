@@ -4,7 +4,7 @@
 
 ## Docs Creation and Management APIs
 
-- [Create a New Doc](docs-creation/create-new-doc.md)
+- [Create a New Doc](docs-creation/create-a-new-doc.md)
 - [Retrieve Doc Details by Doc ID](docs-creation/retrieve-doc-details-by-doc-id.md)
 - [List Doc Contents and Expiring Contents](docs-creation/list-doc-content-and-expiring-content-by-doc-id.md)
 - [Update Doc Status](docs-creation/update-doc-status.md)

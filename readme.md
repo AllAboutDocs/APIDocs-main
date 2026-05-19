@@ -1,19 +1,48 @@
 # API Documentation
 
-Welcome to the API documentation.
+Welcome to the API Documentation for the Docs platform.
 
-This documentation covers all APIs for managing Docs objects and their contents.
+## Overview
 
-## What's Covered
+This documentation provides comprehensive information about all available APIs for managing Docs objects and their contents.
 
-- **Docs Creation and Management APIs** - Create, retrieve, and update Docs
-- **Docs Update via Lists APIs** - Manage Docs through list operations
-- **API Reference** - Complete OpenAPI specification
+## What's Included
+
+### Docs Creation and Management APIs
+
+APIs for creating, retrieving, updating, and managing Docs objects:
+
+- Create new Docs
+- Retrieve Doc details by ID
+- Retrieve lists of Docs by External ID
+- View Doc contents and expiring contents
+- Update Doc status
+
+### Docs Update via Lists APIs
+
+APIs for managing Docs through list operations:
+
+- Add lists through relists or content migration
+- Retrieve Doc details by Doc ID or External ID
+- Cancel specific Docs
 
 ## Getting Started
 
-To get started, check out the [API Reference](api-reference/) section.
+To get started with the API, navigate to the relevant section in the sidebar.
+
+All API endpoints require authentication using the `Docs-Entity-ID` header.
+
+## Base URL
+
+https://api.example.com
+
+## Authentication
+
+All requests must include:
+
+- **Docs-Entity-ID** header: Your unique entity identifier
+- **Content-Type** header: `application/json`
 
 ## Support
 
-For questions or issues, contact our support team.
+For questions or issues, contact our API support team.

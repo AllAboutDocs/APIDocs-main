@@ -1,6 +1,6 @@
 # docs contents list by doc id
 
-Retrieves the current contents and expiring contents associated with a specific Doc using its internal Doc ID. I am testing the change request workflow.
+Retrieves the current contents and expiring contents associated with a specific Doc using its internal Doc ID.
 
 ## Endpoint
 
@@ -81,7 +81,7 @@ curl -X GET "{BASE_URL}/v1/docs/0f5w7ir5wcqj8ydeih3wpv0807/contents" \
 
 ## Common Errors
 
-* `400` — Bad Request\
+- `400` — Bad Request\
   Occurs when the Doc ID format is invalid or required path parameters are missing
-* `422` — Unprocessable Entity\
+- `422` — Unprocessable Entity\
   Occurs when the Doc ID does not match the expected schema

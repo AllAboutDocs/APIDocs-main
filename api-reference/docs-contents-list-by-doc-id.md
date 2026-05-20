@@ -1,6 +1,6 @@
 # docs contents list by doc id
 
-Retrieves the current contents and expiring contents associated with a specific Doc using its internal Doc ID.
+Retrieves the current contents and expiring contents associated with a specific Doc using its internal Doc ID. Just making a change to see if it works.
 
 ## Endpoint
 

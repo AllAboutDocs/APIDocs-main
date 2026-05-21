@@ -16,7 +16,6 @@
 
 ## API Reference
 
-* [OpenAPI Specification](api-reference/README.md)
 * ```yaml
   type: builtin:openapi
   props:

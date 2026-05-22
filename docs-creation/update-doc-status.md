@@ -1,6 +1,6 @@
-# update doc status
+# Update Doc Status
 
-This request updates the Docs status. Each Doc in the Docs ecosystem operates under a specific status that determines its availability and behavior. This endpoint allows you to change the status of a Doc using a PATCH operation. The various Docs statuses are described below:
+This request updates the Docs status. Each Doc in the <code class="expression">space.vars.PRODUCT_NAME</code> operates under a specific status that determines its availability and behavior. This endpoint allows you to change the status of a Doc using a PATCH operation. The various Docs statuses are described below:
 
 * **Active** - The Docs account is active and is fully operational. All Docs activity is operational.
 * **Pending** - The Docs account is pending and is partially operational. Docs activity related to lists will be pending.
@@ -33,3 +33,5 @@ Before updating a Doc’s status, ensure you have:
 * `path` - the property to be updated, e.g. status
 * `op` - the operation to be performed, e.g. replace
 * `value` - the status to be applied, e.g. block
+
+{% include "../.gitbook/includes/reusable-content-1.md" %}

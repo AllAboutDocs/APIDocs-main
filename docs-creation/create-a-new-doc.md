@@ -1,6 +1,6 @@
-# create a new doc
+# Create a New Doc
 
-This request creates a new Docs account in the Docs ecosystem and establishes a docs container for a user. A user can have one or more docs, each identified by a unique Docs ID, linked user ID, and type. Testing the PR workflow now.
+This request creates a new Docs account in the <code class="expression">space.vars.PRODUCT_NAME</code> ecosystem and establishes a docs container for a user. A user can have one or more docs, each identified by a unique Docs ID, linked user ID, and type. Testing the PR workflow now.
 
 A Docs object represents a user's document container.
 
@@ -8,6 +8,8 @@ When you call this endpoint:
 
 * If the **user does not exist**, a new user is created automatically using `externalId` and then passing the `X-User-Id` value in the header during Docs creation.
 * If the **user already exists**, the Docs object links to an existing `owner.id`. You must provide **either**: `owner.id` or `externalId`
+
+{% include "../.gitbook/includes/reusable-content-1.md" %}
 
 ## When to Use This Endpoint
 

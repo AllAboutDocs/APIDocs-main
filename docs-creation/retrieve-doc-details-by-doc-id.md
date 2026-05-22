@@ -1,8 +1,8 @@
-# retrieve doc details by doc id
+# Retrieve Doc Details by Doc ID
 
 This request retrieves the details of a specific Doc by the Doc ID. The details are retrieved using the following:
 
-Each Doc created in the Docs ecosystem is assigned a unique internal identifier.\
+Each Doc created in the <code class="expression">space.vars.PRODUCT_NAME</code> is assigned a unique internal identifier.\
 This endpoint allows you to retrieve the full details of a Doc using that identifier.
 
 You can use this API to:
@@ -31,3 +31,5 @@ Before calling this API, ensure you have:
 * `Docs-Entity-ID` - the unique identifier of the third party entity
 
 The retrieved response displays the details associated with the specified Docs ID.
+
+{% include "../.gitbook/includes/reusable-content-1.md" %}
